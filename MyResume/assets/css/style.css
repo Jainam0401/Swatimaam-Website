@@ -9,9 +9,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+*{
+  color: #fff;
+}
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #eff1f4;
 }
 
 a {
@@ -274,7 +277,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right no-repeat;
+  background: url("C:\Users\ASUS\Desktop\MyResume\MyResume\y2mate.com - SciFi Hallway  Door opening Loop_1080p.mp4") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -284,10 +287,16 @@ h6 {
     padding-left: 160px;
   }
 }
-
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  /* background: rgba(255, 255, 255, 0.8); */
   position: absolute;
   bottom: 0;
   top: 0;
